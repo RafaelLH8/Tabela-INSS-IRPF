@@ -1,0 +1,93 @@
+*{
+    box-sizing:border-box;
+      margin:0;
+      padding:0;
+}
+
+body{
+    background-color: #2B2B3B;
+}
+
+div{
+    color:#20B2AA;
+    font-family: Verdana;
+    font-size: 8vw;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+input{
+    background-color: #212134;
+    border-color: #20B2AA;
+    border-radius: 1vw;
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 4vw;
+    height: 10vw;
+    font-family: Verdana;
+    font-size:2vw;
+    color: #cccccc;
+}
+
+input::placeholder{
+    color:#cccccc;
+}
+
+button{
+    background-color: #4B4EF8;
+    border-color: #20B2AA;
+    border-radius: 2vw;
+    margin-left: 25%;
+    width: 50%;
+    font-size:2vw;
+    margin-top: 4vw;
+    height: 10vw;
+    font-family: Verdana;
+    color: white;
+    border-width:5px;
+}
+
+button:hover{
+    background-color: #1E209F;
+}
+
+.tab{
+    font-size:50%;
+    border: 1px;
+    background-color: #261A4F;
+    margin-left: 12.5%;
+    width: 75%;
+    margin-top: 4vw;
+    height: 10vw;
+    font-family: Verdana;
+    color: #AEAEB0;
+}
+
+@media only screen and (min-width: 1024px) {
+
+div{
+    font-size: 4.5vw;
+    margin-top: 1vw;
+}
+
+input{
+    margin-top: 2.5vw;
+    height: 6vw;
+    font-size: 2.5vw;
+
+}
+
+button{
+    border-radius: 1vw;
+    margin-top: 3vw;
+    height: 6vw;
+    font-size: 2.5vw;
+}
+
+.tab{
+    font-size:100%;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+}
